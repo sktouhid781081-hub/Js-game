@@ -1,0 +1,28 @@
+#gamebtn{
+    background-color: red;
+    outline: none;
+    padding: 10px 5rem;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    border-radius: 40px;
+    color: white;
+    transition: 0.27s;
+}
+#gamebtn:active{
+    outline: none; 
+    border: none;
+}
+#gamebtn:hover{
+    transform: translatey(-10%);
+    border: 2px solid white;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+}

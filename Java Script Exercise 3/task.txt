@@ -1,0 +1,2 @@
+create a website with a div tag containig arandom joke given an array of jokes from the internet.
+Your website should show a random joke everytime reloded. Min lenth of you joke array should be 10.

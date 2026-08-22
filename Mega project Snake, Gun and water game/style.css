@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.body{
+    font-size: 62.5%;
+    overflow-x: none;
+}
+.imgchr{
+    width: 17rem;
+    /* border: 2px solid black; */
+    position: relative;
+    margin-top: 10px;
+    left: 15%;
+}
+.charecter{
+    border: 2px solid black;
+    width: 25rem;
+    height: 20rem;
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem; */
+    transition: ease-in-out 0.17s ;
+}
+.charecter:hover{
+    transform: translateY(-10%);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-top: 40px;
+}
+.containerh1-1{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 17vh;
+}
+.chp{
+    font-size: 2rem;
+    text-align: center;
+}
+.almarih1-1{
+    text-align: center;
+    padding-top: 20vh;
+    font-weight: 500;
+}
+.almarip-1{
+    width:  80vw;
+    text-align: center;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+.startbutton{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-left: 38rem;
+    cursor: pointer;
+}
+.almari2h1-1{
+    text-align: center;
+    padding-top: 4rem;
+}
+/* .almari2{
+    display: none;
+} */
+.imgchr1{
+    position: relative;
+    left: 35%;
+}
+.chp2{
+    position: relative;
+    top: 0%;
+    left: 44%;
+    font-size: 2.7rem;
+    font-weight: 450;
+}
+/* .snake1, .water2, .gun3{
+    border: 2px solid black;
+} */
+.homepage{
+    width: 12rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.containerpa2{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-top: 5rem;
+}
+.difficultycontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 5rem;
+}
+.peaceful, .easy, .medium, .hard, .extreme, .impossible{
+    border: 1px solid black;
+    width: 30rem;
+    height: 2.2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.peaceful{
+    background-color: rgb(124, 238, 124);
+}
+.easy{
+    background-color: rgb(238, 225, 124);
+}
+.medium{
+    background-color: rgb(124, 198, 238);
+}
+.hard{
+    background-color: rgb(238, 124, 124);
+}
+.extreme{
+    background-color: rgb(255, 0, 0);
+}
+.impossible{
+    background-color: rgb(255, 0, 179);
+}
+.peaceful:hover, .easy:hover, .medium:hover, .hard:hover, .extreme:hover, .impossible:hover{
+    transform: translateX(10%);
+    transform: translatey(-10%);
+}

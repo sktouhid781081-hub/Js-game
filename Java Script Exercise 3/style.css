@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body{
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#refresh{
+    padding: 10px 15px;
+    background-color: rgb(255, 2, 2);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 40vh;
+    transition: ease-in-out 0.27s;
+}
+/* #refresh:hover{
+    border: 2px solid white;
+    transform: translateY(-10%) */
+#joke-container{
+    border: 2px solid white;
+    min-height: 30px;
+    min-width: 10vw;
+    text-align: center;
+    padding: 5px 15px;
+}
+#di{
+    color: white;
+}

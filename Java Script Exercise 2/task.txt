@@ -1,0 +1,34 @@
+//if(userch === "1" && computerch === "Snake"){
+//     alert("Snake vs Snake: TIE")
+// }
+// else if(userch === "1" && computerch === "Water"){
+//     alert("Snake vs Water: Snake Wins")
+// }
+// else if(userch === "1" && computerch === "Gun"){
+//     alert("Snake vs Gun: Gun Wins")
+// }
+
+
+// else if(userch === "2" && computerch === "Snake"){
+//     alert("water vs Snake: Snake Wins")
+// }
+// else if(userch === "2" && computerch === "Gun"){
+//     alert("water vs Gun: Water Wins")
+// }
+// else if(userch === "2" && computerch === "Water"){
+//     alert("water vs Water: TIE")
+// }
+
+// else if(userch === "3" && computerch === "Snake"){
+//     alert("Gun vs Snake: Gun wins")
+// }
+// else if(userch === "3" && computerch === "Gun"){
+//     alert("Gun vs Gun: TIE")
+// }
+// else if(userch === "3" && computerch === "Water"){
+//     alert("Gun vs Water: Water wins")
+// }
+
+// else{
+//     alert("Something went wrong")
+// }
